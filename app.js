@@ -24,7 +24,7 @@ new Handsontable(container, {
                 convertedRow.push(SEPARATOR);
             }
             // replace data
-            data[rowIndex] = convertedRow
+            data[rowIndex] = convertedRow;
         }
         // alignment info row
         var alignRow = [SEPARATOR];
